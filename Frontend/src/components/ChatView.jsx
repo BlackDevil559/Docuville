@@ -24,7 +24,7 @@ const ChatView = () => {
         const response = await axios.post(
 
           // Replace the NGROK Hosted url here.
-          'https://f0ad-34-81-225-169.ngrok-free.app/extract_passport_data',
+          'https://ab38-34-80-4-166.ngrok-free.app/extract_passport_data',
           formData,
           {
             headers: { 'Content-Type': 'multipart/form-data' },
@@ -74,8 +74,6 @@ const ChatView = () => {
           <table style={{ width: '100%', borderCollapse: 'collapse', borderRadius: '8px', border: 'solid' }}>
             <thead>
               <tr>
-                <th style={{ padding: '10px', fontWeight: 'bold', textAlign: 'left' }}>Field</th>
-                <th style={{ padding: '10px', fontWeight: 'bold', textAlign: 'left' }}>Value</th>
               </tr>
             </thead>
             <tbody>
